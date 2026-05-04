@@ -5,9 +5,9 @@
   --bg-primary:        #0F172A;
   --bg-secondary:      #1E293B;
   --bg-tertiary:       #141f33;
-  --text-primary:      #E2E8F0;
-  --text-secondary:    #94A3B8;
-  --text-muted:        #64748B;
+  --text-primary:      #F8FAFC;
+  --text-secondary:    #CBD5E1;
+  --text-muted:        #94A3B8;
   --accent-indigo:     #6366F1;
   --accent-teal:       #14B8A6;
   --accent-indigo-lt:  #818CF8;
@@ -621,8 +621,8 @@ img { max-width: 100%; display: block; }
   position: relative;
   padding-left: 20px;
   color: var(--text-secondary);
-  font-size: 14.5px;
-  line-height: 1.75;
+  font-size: 15.5px;
+  line-height: 1.8;
   margin-bottom: 12px;
 }
 .timeline-bullets li::before {
@@ -711,9 +711,9 @@ img { max-width: 100%; display: block; }
 }
 
 .card-intro {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-secondary);
-  line-height: 1.75;
+  line-height: 1.8;
 }
 
 .card-bullets {
@@ -726,9 +726,9 @@ img { max-width: 100%; display: block; }
 .card-bullets li {
   position: relative;
   padding-left: 16px;
-  font-size: 13.5px;
+  font-size: 14.5px;
   color: var(--text-secondary);
-  line-height: 1.68;
+  line-height: 1.75;
 }
 .card-bullets li::before {
   content: '';
