@@ -6,10 +6,17 @@ const navToggle = document.getElementById('navToggle');
 const navMenu   = document.getElementById('navMenu');
 const navLinks  = document.querySelectorAll('.nav-link');
 
+const backToTop = document.getElementById('backToTop');
+
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 40);
+  backToTop.classList.toggle('visible', window.scrollY > 400);
   highlightActiveLink();
 }, { passive: true });
+
+backToTop.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 navToggle.addEventListener('click', () => {
   navMenu.classList.toggle('open');
