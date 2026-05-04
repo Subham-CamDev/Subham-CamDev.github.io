@@ -927,6 +927,10 @@ img { max-width: 100%; display: block; }
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(99,102,241,0.35);
 }
+.btt-arrow {
+  font-size: 18px;
+  line-height: 1;
+}
 .back-to-top.visible {
   opacity: 1;
   visibility: visible;
